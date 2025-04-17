@@ -77,12 +77,12 @@ Desktop.ini
 # User-specific settings and project preferences for Unity Hub
 .local/
 
-# Ignore Unity's LFS tracking (if any)
-**/*.asset
-**/*.unity
-**/*.prefab
+# **REMOVE THIS LINE** (Don't ignore Unity's LFS-tracked files like `.unity`, `.prefab`, `.asset`)
+# **/*.asset
+# **/*.unity
+# **/*.prefab
 
-# Git LFS configuration
+# Git LFS configuration for large files
 *.psd
 *.tga
 *.fbx
